@@ -1,4 +1,5 @@
 # Collective-Decision-Making-Lockin-2026
+[![DOI](https://zenodo.org/badge/1216560461.svg)](https://doi.org/10.5281/zenodo.19674894)
 
 ## Directories
 ### functions
