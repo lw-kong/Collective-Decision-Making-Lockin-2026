@@ -14,9 +14,7 @@ omega_s = 1.5;
 %network = generate_ring_network(num_agents);
 network = generate_directed_ER(num_agents,k);
 message_weight = 1; % =1 DeGroot, =0 naive WC
-diz_list = [-1,1]; % =[] DeGroot, =[-1,1] Torney
-%diz_list = [-30:0.05:-1,1:0.05:30];
-%diz_list = [];
+diz_list = [-1,1]; % =[] DeGroot, =[-1,1] Binary message, =[-1,0,1] three messages
 
 tic
 [acc,u,est,m,g,G_ts] = ...
