@@ -1,4 +1,3 @@
-addpath D:\Research\Misinformation\Model_0
 
 % InstantCheck
 % each agent checks own decision correctness with probability check_rate
