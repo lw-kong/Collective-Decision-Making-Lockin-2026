@@ -1,5 +1,4 @@
 
-addpath 'D:\Research\Misinformation\Model_0\gen_3_Matlab'
 %parpool('local',6)
 
 rng((now*1000-floor(now*1000))*100000)
@@ -15,13 +14,10 @@ dt = 1.0;          % time step
 omega_g = 0.1;
 noise_sigma = 1;
 
-diz_list = [-1,1];
-%diz_list = [-1,0,1];
-%diz_list = -5:0.5:5;
-%diz_list = [];
-mw = 1;  % =1 DeGroot, =0 naive WC
+message_weight = 1; % =1 DeGroot, =0 naive WC
+diz_list = [-1,1]; % =[] DeGroot, =[-1,1] Binary message, =[-1,0,1] three messages
 
-%para_set = [1:0.05:2,2.1:0.1:6,6:0.2:8];
+
 para_set = 0:0.1:2;
 repeat_num = 25;            % number of repeats
 
